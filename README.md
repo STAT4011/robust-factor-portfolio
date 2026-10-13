@@ -40,3 +40,29 @@ By default it reads `prices_raw.csv`, `revenue_adjusted.csv` and `benchmark.csv`
 | [knn_test.ipynb](notebooks/knn_test.ipynb) | Standalone evaluation and tuning of the two-stage KNN, comparing predictive power, coverage and neighbor stability. |
 | [debug.ipynb](notebooks/debug.ipynb) | Formula and numerical validation: hand-computed comparisons, causality, missing values and edge-case checks. |
 | [report.ipynb](notebooks/report.ipynb) | Reads a saved run record and plots returns, risk, benchmark comparisons and holdings charts; change `RUN_FILE` to switch records. |
+
+## Frozen parameters
+
+The final strategy parameters are frozen from the validation run [`20261013_171155_val-mad_1cb7.json`](outputs/runs/20261013_171155_val-mad_1cb7.json) (label `val-mad`, git commit `a167275`; backtest 2023-01-01 → 2024-12-31, step 39, 12 periods).
+Values marked **bold** differ from the defaults in `pf/config.py`; all others are the defaults.
+
+Data and task (A, B): `prices_raw.csv` (`close`), `revenue_adjusted.csv`, `benchmark.csv`, benchmark `^GSPC`; decision date 2026-10-12, holding period 39 trading days, 252 periods per year.
+
+| Section | Parameter | Value |
+| --- | --- | --- |
+| D factor weights | `momentum` / `downside_vol` / `revenue_growth` / `ret` | **0.4 / 0.3 / 0.4 / 0.3** |
+| E1 momentum | `lookback` / `skip` | **189** / 21 |
+| E1 downside_vol | `window` / `tau` | 252 / 0.0 |
+| E1 revenue_growth | `method` | `yoy` |
+| E1 ret (KNN) | `market` / `market_pool_size` / `n_neighbors` / `min_neighbors` / `neighbor_gap` | `^GSPC` / 40 / 15 / 8 / `None` (= holding period) |
+| E1 ret (KNN) | market windows: momentum / vol / drawdown / breadth / dispersion | 21 / 21 / 63 / 21 / 21 |
+| E1 ret (KNN) | stock windows: momentum / vol / drawdown | 21 / 21 / 63 |
+| E1 ret (KNN) | `market_distance_weight` / `stock_distance_weight` | 1.0 / 2.0 |
+| E2 standardize | `n` (MAD clip multiple) | 5.0 |
+| E3 cluster | `window` / `remove_market` / `mkt` | 250 / `True` / `^GSPC` |
+| E3 cluster | `method` / `min_corr` / `n_clusters` | `complete` / 0.1 / `None` |
+| E3 selection | `method` | `cluster_cap` |
+| E3 cluster_cap | `max_per_cluster` / `min_n` / `max_n` / `max_gap` | 2 / 4 / 6 / 100.0 |
+| E4 weights | `method` | `robust_mvo` |
+| E4 robust_mvo | `lookback` / `kappa` / `max_volatility` | **504** / **1** / **0.15** |
+| E4 robust_mvo | `lower` / `upper` | 0.0 / 0.3 |
