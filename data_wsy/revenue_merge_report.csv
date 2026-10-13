@@ -1,0 +1,151 @@
+﻿ticker,period_end,fiscal_year,fiscal_quarter,chosen_tag,bq_value,sec_value,sec_kind,final,action,note
+AAOI,== SUMMARY ==,,,RevenueFromContractWithCustomerExcludingAssessedTax,,,,,agreement 38/38 = 100.0%,"replaced 0, filled 0, blanked 0; fiscalYearEnd=1231; CIK=0001158114"
+AAPL,== SUMMARY ==,,,Revenues,,,,,agreement 8/8 = 100.0%,"replaced 0, filled 0, blanked 0; fiscalYearEnd=0926; CIK=0000320193"
+ABBV,== SUMMARY ==,,,RevenueFromContractWithCustomerExcludingAssessedTax,,,,,agreement 8/8 = 100.0%,"replaced 0, filled 0, blanked 0; fiscalYearEnd=1231; CIK=0001551152"
+AMZN,2021-12-31,2021,4,RevenueFromContractWithCustomerExcludingAssessedTax,,137412000000,10-K_derived,137412000000,SEC,BQ missing this period, filled from SEC
+AMZN,2022-12-31,2022,4,RevenueFromContractWithCustomerExcludingAssessedTax,,149204000000,10-K_derived,149204000000,SEC,BQ missing this period, filled from SEC
+AMZN,2023-12-31,2023,4,RevenueFromContractWithCustomerExcludingAssessedTax,,169961000000,10-K_derived,169961000000,SEC,BQ missing this period, filled from SEC
+AMZN,2024-12-31,2024,4,RevenueFromContractWithCustomerExcludingAssessedTax,,187792000000,10-K_derived,187792000000,SEC,BQ missing this period, filled from SEC
+AMZN,2025-12-31,2025,4,RevenueFromContractWithCustomerExcludingAssessedTax,,213386000000,10-K_derived,213386000000,SEC,BQ missing this period, filled from SEC
+AMZN,== SUMMARY ==,,,RevenueFromContractWithCustomerExcludingAssessedTax,,,,,agreement 33/33 = 100.0%,"replaced 0, filled 5, blanked 0; fiscalYearEnd=1231; CIK=0001018724"
+AVGO,== SUMMARY ==,,,RevenueFromContractWithCustomerExcludingAssessedTax,,,,,agreement 35/35 = 100.0%,"replaced 0, filled 0, blanked 0; fiscalYearEnd=1101; CIK=0001730168"
+BAC,2008-06-30,2008,2,Revenues,,20410000000,10-Q,20410000000,SEC,BQ missing this period, filled from SEC
+BAC,2008-09-30,2008,3,Revenues,,19621000000,10-Q,19621000000,SEC,BQ missing this period, filled from SEC
+BAC,2008-12-31,2008,4,Revenues,,15680000000,10-K_derived,15680000000,SEC,BQ missing this period, filled from SEC
+BAC,== SUMMARY ==,,,Revenues,,,,,agreement 62/70 = 88.6%,"replaced 0, filled 3, blanked 0; fiscalYearEnd=1231; CIK=0000070858"
+BRK-B,2008-09-30,2008,3,Revenues,,27926000000,10-Q,27926000000,SEC,BQ missing this period, filled from SEC
+BRK-B,2008-12-31,2008,4,Revenues,,24592000000,10-K_derived,24592000000,SEC,BQ missing this period, filled from SEC
+BRK-B,2021-12-31,2021,4,Revenues,,71798000000,10-K_derived,71798000000,SEC,BQ missing this period, filled from SEC
+BRK-B,2023-12-31,2023,4,Revenues,,93376000000,10-K_derived,93376000000,SEC,BQ missing this period, filled from SEC
+BRK-B,2024-12-31,2024,4,Revenues,,94916000000,10-K_derived,94916000000,SEC,BQ missing this period, filled from SEC
+BRK-B,2025-12-31,2025,4,Revenues,,94232000000,10-K_derived,94232000000,SEC,BQ missing this period, filled from SEC
+BRK-B,== SUMMARY ==,,,Revenues,,,,,agreement 66/66 = 100.0%,"replaced 0, filled 6, blanked 0; fiscalYearEnd=1231; CIK=0001067983"
+CAT,2008-06-30,2008,2,Revenues,,13624000000,10-Q,13624000000,SEC,BQ missing this period, filled from SEC
+CAT,2008-09-30,2008,3,Revenues,,12981000000,10-Q,12981000000,SEC,BQ missing this period, filled from SEC
+CAT,2008-12-31,2008,4,Revenues,,12923000000,10-K_derived,12923000000,SEC,BQ missing this period, filled from SEC
+CAT,== SUMMARY ==,,,Revenues,,,,,agreement 70/70 = 100.0%,"replaced 0, filled 3, blanked 0; fiscalYearEnd=1231; CIK=0000018230"
+CRWV,== SUMMARY ==,,,RevenueFromContractWithCustomerExcludingAssessedTax,,,,,agreement 10/10 = 100.0%,"replaced 0, filled 0, blanked 0; fiscalYearEnd=1231; CIK=0001769628"
+EOG,2008-06-30,2008,2,Revenues,,1095512000,10-Q,1095512000,SEC,BQ missing this period, filled from SEC
+EOG,2008-09-30,2008,3,Revenues,,3263886000,10-Q,3263886000,SEC,BQ missing this period, filled from SEC
+EOG,2008-12-31,2008,4,Revenues,,1633727000,10-K_derived,1633727000,SEC,BQ missing this period, filled from SEC
+EOG,2011-12-31,2011,4,Revenues,-3514816000.0,2773015000,10-K_derived,2773015000,SEC,BQ -3.515B -> SEC 2.773B (deviation 179%)
+EOG,== SUMMARY ==,,,Revenues,,,,,agreement 69/70 = 98.6%,"replaced 1, filled 3, blanked 0; fiscalYearEnd=1231; CIK=0000821189"
+GE,2008-06-30,2008,2,Revenues,,46840000000,10-Q,46840000000,SEC,BQ missing this period, filled from SEC
+GE,2008-09-30,2008,3,Revenues,,47234000000,10-Q,47234000000,SEC,BQ missing this period, filled from SEC
+GE,2008-12-31,2008,4,Revenues,,46213000000,10-K_derived,46213000000,SEC,BQ missing this period, filled from SEC
+GE,2009-03-31,2009,1,Revenues,14278000000.0,38438000000,10-Q,38438000000,SEC,BQ 14.278B -> SEC 38.438B (deviation 169%)
+GE,2009-06-30,2009,2,Revenues,12943000000.0,39082000000,10-Q,39082000000,SEC,BQ 12.943B -> SEC 39.082B (deviation 202%)
+GE,2009-09-30,2009,3,Revenues,12325000000.0,37799000000,10-Q,37799000000,SEC,BQ 12.325B -> SEC 37.799B (deviation 207%)
+GE,2009-12-31,2009,4,Revenues,13112000000.0,41438000000,10-K_derived,41438000000,SEC,BQ 13.112B -> SEC 41.438B (deviation 216%)
+GE,2010-12-31,2010,4,Revenues,12814000000.0,40274000000,10-K_derived,40274000000,SEC,BQ 12.814B -> SEC 40.274B (deviation 214%)
+GE,2011-03-31,2011,1,Revenues,13036000000.0,38448000000,10-Q,38448000000,SEC,BQ 13.036B -> SEC 38.448B (deviation 195%)
+GE,2011-06-30,2011,2,Revenues,12440000000.0,35625000000,10-Q,35625000000,SEC,BQ 12.440B -> SEC 35.625B (deviation 186%)
+GE,2011-09-30,2011,3,Revenues,12015000000.0,35367000000,10-Q,35367000000,SEC,BQ 12.015B -> SEC 35.367B (deviation 194%)
+GE,2011-12-31,2011,4,Revenues,11577000000.0,37973000000,10-K_derived,37973000000,SEC,BQ 11.577B -> SEC 37.973B (deviation 228%)
+GE,2012-12-31,2012,4,Revenues,11770000000.0,39327000000,10-K_derived,39327000000,SEC,BQ 11.770B -> SEC 39.327B (deviation 234%)
+GE,2013-12-31,2013,4,Revenues,7582000000.0,40187000000,10-K_derived,40187000000,SEC,BQ 7.582B -> SEC 40.187B (deviation 430%)
+GE,2014-12-31,2014,4,Revenues,22589000000.0,42004000000,10-K_derived,42004000000,SEC,BQ 22.589B -> SEC 42.004B (deviation 86%)
+GE,2015-03-31,2015,1,Revenues,2866000000.0,29356000000,10-Q,29356000000,SEC,BQ 2.866B -> SEC 29.356B (deviation 924%)
+GE,2015-06-30,2015,2,Revenues,2690000000.0,32754000000,10-Q,32754000000,SEC,BQ 2.690B -> SEC 32.754B (deviation 1118%)
+GE,2015-09-30,2015,3,Revenues,2660000000.0,31680000000,10-Q,31680000000,SEC,BQ 2.660B -> SEC 31.680B (deviation 1091%)
+GE,2015-12-31,2015,4,Revenues,2585000000.0,24655000000,10-K_derived,24655000000,SEC,BQ 2.585B -> SEC 24.655B (deviation 854%)
+GE,2016-12-31,2016,4,Revenues,2649000000.0,33089000000,10-K_derived,33089000000,SEC,BQ 2.649B -> SEC 33.089B (deviation 1149%)
+GE,2017-12-31,2017,4,Revenues,12639000000.0,31401000000,10-K_derived,31401000000,SEC,BQ 12.639B -> SEC 31.401B (deviation 148%)
+GE,2018-09-30,2018,3,Revenues,23392000000.0,29573000000,10-Q,29573000000,SEC,BQ 23.392B -> SEC 29.573B (deviation 26%)
+GE,2018-12-31,2018,4,Revenues,26499000000.0,33278000000,10-K_derived,33278000000,SEC,BQ 26.499B -> SEC 33.278B (deviation 26%)
+GE,2019-03-31,2019,1,Revenues,22202000000.0,27286000000,10-Q,27286000000,SEC,BQ 22.202B -> SEC 27.286B (deviation 23%)
+GE,2019-06-30,2019,2,Revenues,23414000000.0,28831000000,10-Q,28831000000,SEC,BQ 23.414B -> SEC 28.831B (deviation 23%)
+GE,2019-12-31,2019,4,Revenues,21245000000.0,26238000000,10-K_derived,26238000000,SEC,BQ 21.245B -> SEC 26.238B (deviation 24%)
+GE,2022-03-31,2022,1,Revenues,12675000000.0,17040000000,10-Q,17040000000,SEC,BQ 12.675B -> SEC 17.040B (deviation 34%)
+GE,2022-06-30,2022,2,Revenues,14127000000.0,18646000000,10-Q,18646000000,SEC,BQ 14.127B -> SEC 18.646B (deviation 32%)
+GE,2022-09-30,2022,3,Revenues,14470000000.0,19084000000,10-Q,19084000000,SEC,BQ 14.470B -> SEC 19.084B (deviation 32%)
+GE,2022-12-31,2022,4,Revenues,16828000000.0,21786000000,10-K_derived,21786000000,SEC,BQ 16.828B -> SEC 21.786B (deviation 29%)
+GE,2023-03-31,2023,1,Revenues,7836000000.0,14486000000,10-Q,14486000000,SEC,BQ 7.836B -> SEC 14.486B (deviation 85%)
+GE,2023-06-30,2023,2,Revenues,8755000000.0,16699000000,10-Q,16699000000,SEC,BQ 8.755B -> SEC 16.699B (deviation 91%)
+GE,2023-09-30,2023,3,Revenues,9302000000.0,17346000000,10-Q,17346000000,SEC,BQ 9.302B -> SEC 17.346B (deviation 86%)
+GE,2023-12-31,2023,4,Revenues,9456000000.0,19423000000,10-K_derived,19423000000,SEC,BQ 9.456B -> SEC 19.423B (deviation 105%)
+GE,2024-03-31,2024,1,Revenues,8955000000.0,16053000000,10-Q,16053000000,SEC,BQ 8.955B -> SEC 16.053B (deviation 79%)
+GE,== SUMMARY ==,,,Revenues,,,,,agreement 28/70 = 40.0%,"replaced 32, filled 3, blanked 0; fiscalYearEnd=1231; CIK=0000040545"
+GOOGL,== SUMMARY ==,,,RevenueFromContractWithCustomerExcludingAssessedTax,,,,,agreement 33/33 = 100.0%,"replaced 0, filled 0, blanked 0; fiscalYearEnd=1231; CIK=0001652044"
+INTC,2008-06-28,2008,2,SalesRevenueNet,,9470000000,10-Q,9470000000,SEC,BQ missing this period, filled from SEC
+INTC,2008-09-27,2008,3,SalesRevenueNet,,10217000000,10-Q,10217000000,SEC,BQ missing this period, filled from SEC
+INTC,2008-12-27,2008,4,SalesRevenueNet,,8226000000,10-K_derived,8226000000,SEC,BQ missing this period, filled from SEC
+INTC,== SUMMARY ==,,,SalesRevenueNet,,,,,agreement 38/38 = 100.0%,"replaced 0, filled 3, blanked 0; fiscalYearEnd=1227; CIK=0000050863"
+JNJ,== SUMMARY ==,,,Revenues,,,,,agreement 8/8 = 100.0%,"replaced 0, filled 0, blanked 0; fiscalYearEnd=0103; CIK=0000200406"
+JPM,== SUMMARY ==,,,RevenuesNetOfInterestExpense,,,,,agreement 49/50 = 98.0%,"replaced 0, filled 0, blanked 0; fiscalYearEnd=1231; CIK=0000019617"
+KO,2008-06-27,2008,2,SalesRevenueGoodsNet,,9046000000,10-Q,9046000000,SEC,BQ missing this period, filled from SEC
+KO,2008-09-26,2008,3,SalesRevenueGoodsNet,,8393000000,10-Q,8393000000,SEC,BQ missing this period, filled from SEC
+KO,2008-12-31,2008,4,SalesRevenueGoodsNet,,7126000000,10-K_derived,7126000000,SEC,BQ missing this period, filled from SEC
+KO,== SUMMARY ==,,,SalesRevenueGoodsNet,,,,,agreement 36/38 = 94.7%,"replaced 0, filled 3, blanked 0; fiscalYearEnd=1231; CIK=0000021344"
+LIN,== SUMMARY ==,,,RevenueFromContractWithCustomerExcludingAssessedTax,,,,,agreement 38/38 = 100.0%,"replaced 0, filled 0, blanked 0; fiscalYearEnd=1231; CIK=0001707925"
+LLY,2008-06-30,2008,2,Revenues,,5150400000,10-Q,5150400000,SEC,BQ missing this period, filled from SEC
+LLY,2008-09-30,2008,3,Revenues,,5209500000,10-Q,5209500000,SEC,BQ missing this period, filled from SEC
+LLY,2008-12-31,2008,4,Revenues,,5204400000,10-K_derived,5204400000,SEC,BQ missing this period, filled from SEC
+LLY,== SUMMARY ==,,,Revenues,,,,,agreement 66/70 = 94.3%,"replaced 0, filled 3, blanked 0; fiscalYearEnd=1231; CIK=0000059478"
+LMT,== SUMMARY ==,,,RevenueFromContractWithCustomerExcludingAssessedTax,,,,,agreement 2/2 = 100.0%,"replaced 0, filled 0, blanked 0; fiscalYearEnd=1231; CIK=0000936468"
+MCD,2008-06-30,2008,2,Revenues,,6075300000,10-Q,6075300000,SEC,BQ missing this period, filled from SEC
+MCD,2008-09-30,2008,3,Revenues,,6267300000,10-Q,6267300000,SEC,BQ missing this period, filled from SEC
+MCD,2008-12-31,2008,4,Revenues,,5565000000,10-K_derived,5565000000,SEC,BQ missing this period, filled from SEC
+MCD,== SUMMARY ==,,,Revenues,,,,,agreement 70/70 = 100.0%,"replaced 0, filled 3, blanked 0; fiscalYearEnd=1231; CIK=0000063908"
+MPC,== SUMMARY ==,,,RevenueFromContractWithCustomerIncludingAssessedTax,,,,,agreement 3/3 = 100.0%,"replaced 0, filled 0, blanked 0; fiscalYearEnd=1231; CIK=0001510295"
+MSFT,2007-09-30,2008,1,Revenues,,13762000000,10-Q,13762000000,SEC,BQ missing this period, filled from SEC
+MSFT,2007-12-31,2008,2,Revenues,,16367000000,10-Q,16367000000,SEC,BQ missing this period, filled from SEC
+MSFT,2008-03-31,2008,3,Revenues,,14454000000,10-Q,14454000000,SEC,BQ missing this period, filled from SEC
+MSFT,2008-06-30,2008,4,Revenues,,15837000000,10-Q,15837000000,SEC,BQ missing this period, filled from SEC
+MSFT,2008-09-30,2009,1,Revenues,,15061000000,10-Q,15061000000,SEC,BQ missing this period, filled from SEC
+MSFT,2008-12-31,2009,2,Revenues,,16629000000,10-Q,16629000000,SEC,BQ missing this period, filled from SEC
+MSFT,== SUMMARY ==,,,Revenues,,,,,agreement 8/8 = 100.0%,"replaced 0, filled 6, blanked 0; fiscalYearEnd=0630; CIK=0000789019"
+MSTR,== SUMMARY ==,,,RevenueFromContractWithCustomerExcludingAssessedTax,,,,,agreement 38/38 = 100.0%,"replaced 0, filled 0, blanked 0; fiscalYearEnd=1231; CIK=0001050446"
+NEM,== SUMMARY ==,,,RevenueFromContractWithCustomerExcludingAssessedTax,,,,,agreement 38/38 = 100.0%,"replaced 0, filled 0, blanked 0; fiscalYearEnd=1231; CIK=0001164727"
+NOW,== SUMMARY ==,,,RevenueFromContractWithCustomerExcludingAssessedTax,,,,,agreement 36/36 = 100.0%,"replaced 0, filled 0, blanked 0; fiscalYearEnd=1231; CIK=0001373715"
+NVDA,2008-07-27,2009,2,Revenues,,892676000,10-Q,892676000,SEC,BQ missing this period, filled from SEC
+NVDA,2008-10-26,2009,3,Revenues,,897655000,10-Q,897655000,SEC,BQ missing this period, filled from SEC
+NVDA,== SUMMARY ==,,,Revenues,,,,,agreement 70/70 = 100.0%,"replaced 0, filled 2, blanked 0; fiscalYearEnd=0131; CIK=0001045810"
+ONDS,2018-06-30,2018,2,Revenues,16444.0,1928,10-Q,1928,SEC,BQ 0.000B -> SEC 0.000B (deviation 88%)
+ONDS,== SUMMARY ==,,,Revenues,,,,,agreement 37/38 = 97.4%,"replaced 1, filled 0, blanked 0; fiscalYearEnd=1231; CIK=0001646188"
+TEM,== SUMMARY ==,,,RevenueFromContractWithCustomerExcludingAssessedTax,,,,,agreement 13/13 = 100.0%,"replaced 0, filled 0, blanked 0; fiscalYearEnd=1231; CIK=0001717115"
+V,2008-06-30,2008,3,Revenues,,1613000000,10-Q,1613000000,SEC,BQ missing this period, filled from SEC
+V,2008-09-30,2008,4,Revenues,,1709000000,10-K_derived,1709000000,SEC,BQ missing this period, filled from SEC
+V,2008-12-31,2009,1,Revenues,,1739000000,10-Q,1739000000,SEC,BQ missing this period, filled from SEC
+V,== SUMMARY ==,,,Revenues,,,,,agreement 43/43 = 100.0%,"replaced 0, filled 3, blanked 0; fiscalYearEnd=0930; CIK=0001403161"
+WMT,2008-07-31,2009,2,Revenues,,102342000000,10-Q,102342000000,SEC,BQ missing this period, filled from SEC
+WMT,2008-10-31,2009,3,Revenues,,98345000000,10-Q,98345000000,SEC,BQ missing this period, filled from SEC
+WMT,== SUMMARY ==,,,Revenues,,,,,agreement 71/71 = 100.0%,"replaced 0, filled 2, blanked 0; fiscalYearEnd=0131; CIK=0000104169"
+XOM,2017-03-31,2017,1,Revenues,,56474000000,10-Q,56474000000,SEC,BQ missing this period, filled from SEC
+XOM,2017-06-30,2017,2,Revenues,,56026000000,10-Q,56026000000,SEC,BQ missing this period, filled from SEC
+XOM,2017-09-30,2017,3,Revenues,,59350000000,10-Q,59350000000,SEC,BQ missing this period, filled from SEC
+XOM,2017-12-31,2017,4,Revenues,,65312000000,10-K_derived,65312000000,SEC,BQ missing this period, filled from SEC
+XOM,2018-03-31,2018,1,Revenues,,65436000000,10-Q,65436000000,SEC,BQ missing this period, filled from SEC
+XOM,2018-06-30,2018,2,Revenues,,71456000000,10-Q,71456000000,SEC,BQ missing this period, filled from SEC
+XOM,2018-09-30,2018,3,Revenues,,74187000000,10-Q,74187000000,SEC,BQ missing this period, filled from SEC
+XOM,2018-12-31,2018,4,Revenues,,68253000000,10-K_derived,68253000000,SEC,BQ missing this period, filled from SEC
+XOM,2019-03-31,2019,1,Revenues,,61646000000,10-Q,61646000000,SEC,BQ missing this period, filled from SEC
+XOM,2019-06-30,2019,2,Revenues,,67491000000,10-Q,67491000000,SEC,BQ missing this period, filled from SEC
+XOM,2019-09-30,2019,3,Revenues,,65049000000,10-Q,65049000000,SEC,BQ missing this period, filled from SEC
+XOM,2019-12-31,2019,4,Revenues,,67173000000,10-K_derived,67173000000,SEC,BQ missing this period, filled from SEC
+XOM,2020-03-31,2020,1,Revenues,,56158000000,10-Q,56158000000,SEC,BQ missing this period, filled from SEC
+XOM,2020-06-30,2020,2,Revenues,,32605000000,10-Q,32605000000,SEC,BQ missing this period, filled from SEC
+XOM,2020-09-30,2020,3,Revenues,,46199000000,10-Q,46199000000,SEC,BQ missing this period, filled from SEC
+XOM,2020-12-31,2020,4,Revenues,,46540000000,10-K_derived,46540000000,SEC,BQ missing this period, filled from SEC
+XOM,2021-03-31,2021,1,Revenues,,59147000000,10-Q,59147000000,SEC,BQ missing this period, filled from SEC
+XOM,2021-06-30,2021,2,Revenues,,67742000000,10-Q,67742000000,SEC,BQ missing this period, filled from SEC
+XOM,2021-09-30,2021,3,Revenues,,73786000000,10-Q,73786000000,SEC,BQ missing this period, filled from SEC
+XOM,2021-12-31,2021,4,Revenues,,84965000000,10-K_derived,84965000000,SEC,BQ missing this period, filled from SEC
+XOM,2022-03-31,2022,1,Revenues,,90500000000,10-Q,90500000000,SEC,BQ missing this period, filled from SEC
+XOM,2022-06-30,2022,2,Revenues,,115681000000,10-Q,115681000000,SEC,BQ missing this period, filled from SEC
+XOM,2022-09-30,2022,3,Revenues,,112070000000,10-Q,112070000000,SEC,BQ missing this period, filled from SEC
+XOM,2022-12-31,2022,4,Revenues,,95429000000,10-K_derived,95429000000,SEC,BQ missing this period, filled from SEC
+XOM,2023-03-31,2023,1,Revenues,,86564000000,10-Q,86564000000,SEC,BQ missing this period, filled from SEC
+XOM,2023-06-30,2023,2,Revenues,,82914000000,10-Q,82914000000,SEC,BQ missing this period, filled from SEC
+XOM,2023-09-30,2023,3,Revenues,,90760000000,10-Q,90760000000,SEC,BQ missing this period, filled from SEC
+XOM,2023-12-31,2023,4,Revenues,,84344000000,10-K_derived,84344000000,SEC,BQ missing this period, filled from SEC
+XOM,2024-03-31,2024,1,Revenues,,83083000000,10-Q,83083000000,SEC,BQ missing this period, filled from SEC
+XOM,2024-06-30,2024,2,Revenues,,93060000000,10-Q,93060000000,SEC,BQ missing this period, filled from SEC
+XOM,2024-09-30,2024,3,Revenues,,90016000000,10-Q,90016000000,SEC,BQ missing this period, filled from SEC
+XOM,2024-12-31,2024,4,Revenues,,83426000000,10-K_derived,83426000000,SEC,BQ missing this period, filled from SEC
+XOM,2025-03-31,2025,1,Revenues,,83130000000,10-Q,83130000000,SEC,BQ missing this period, filled from SEC
+XOM,2025-06-30,2025,2,Revenues,,81506000000,10-Q,81506000000,SEC,BQ missing this period, filled from SEC
+XOM,2025-09-30,2025,3,Revenues,,85294000000,10-Q,85294000000,SEC,BQ missing this period, filled from SEC
+XOM,2025-12-31,2025,4,Revenues,,82308000000,10-K_derived,82308000000,SEC,BQ missing this period, filled from SEC
+XOM,2026-03-31,2026,1,Revenues,,85138000000,10-Q,85138000000,SEC,BQ missing this period, filled from SEC
+XOM,== SUMMARY ==,,,Revenues,,,,,no comparable periods,"replaced 0, filled 37, blanked 0; fiscalYearEnd=1231; CIK=0000034088"

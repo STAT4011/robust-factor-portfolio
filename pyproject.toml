@@ -1,0 +1,22 @@
+[project]
+name = "pf"
+version = "0.1.0"
+description = "Multi-factor stock selection and portfolio backtesting for the 2026Q4 course project"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "pandas",
+    "numpy",
+    "scipy",
+    "scikit-learn",
+    "cvxpy",
+    "matplotlib",
+    "jupyter",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["pf"]

@@ -1,0 +1,47 @@
+# data_wsy/.gitignore
+#
+# This directory only commits "code + docs + final data"; intermediate artifacts and caches are always ignored.
+
+# ---- Raw API response cache -------------------------------------------------
+# _cache/ holds the raw JSON responses from BusinessQuant and SEC:
+#   bq_*.json                     BusinessQuant revenue responses (cache hits use none of the 40/day quota)
+#   sec_sub_*.json                SEC main submissions files
+#   sec_CIK*-submissions-*.json   SEC historical archives (JPM alone has 70 files)
+#   facts_*.json                  SEC companyfacts (one per company, with all us-gaap line items)
+#   concept_*.json                SEC companyconcept (used by crosscheck_revenue.py)
+#   firstfiled_*.json             earliest 10-K/10-Q filing dates per company
+# These are all re-fetchable intermediate artifacts and large (hundreds of MB in total); do not commit them.
+_cache/
+
+# ---- Python bytecode --------------------------------------------------------
+__pycache__/
+*.py[cod]
+
+# ---- Transient log overwritten on every run ---------------------------------
+fetch_log.txt
+
+# ---- Local API key (in case it is read from a file later) -------------------
+.env
+bq_key.txt
+
+# =============================================================================
+# The following files **should be committed** (for documentation only; no rules needed):
+#
+#   Scripts (the whole project has only two Python entry points):
+#     get_stock_data.py      data acquisition (prices / revenue / indices)
+#     merge_revenue.py       revenue correction: fetch SEC -> choose line item -> derive Q4 -> fiscal quarter labels
+#                            -> compare with BQ -> output -> self-check
+#
+#   Data:
+#     prices_raw.csv         prices (28 stocks)
+#     benchmark.csv          6 market indices
+#     revenue.csv            raw BQ revenue (with known errors, for reference only)
+#     revenue_adjusted.csv   ★ corrected revenue; use this one for backtests
+#     revenue_merge_report.csv   chosen line item + per-period replacement details + Q4 comparison
+#
+#   Docs and caches:
+#     README_wsy.md          this directory's README
+#     .gitignore             this file
+#     _sec_ticker_map.json   SEC ticker→CIK mapping (874 KB, committed with the code
+#                            to avoid re-downloading after every clone)
+# =============================================================================
